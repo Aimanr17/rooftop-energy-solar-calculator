@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooftop Energy Solar Savings Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Corbel:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rooftop Energy</h1>
+        <nav>
+            <ul>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="calculator">
+            <h2>Solar Savings Calculator</h2>
+            <form id="savings-form">
+                <label for="monthly-bill">Monthly TNB Bill (RM):</label>
+                <input type="number" id="monthly-bill" required>
+
+                <label for="location">Location (Optional):</label>
+                <select id="location">
+                    <option value="">Select State</option>
+                    <option value="Johor">Johor</option>
+                    <option value="Kedah">Kedah</option>
+                    <option value="Kelantan">Kelantan</option>
+                    <option value="Malacca">Malacca</option>
+                    <option value="Negeri Sembilan">Negeri Sembilan</option>
+                    <option value="Pahang">Pahang</option>
+                    <option value="Penang">Penang</option>
+                    <option value="Perak">Perak</option>
+                    <option value="Perlis">Perlis</option>
+                    <option value="Sabah">Sabah</option>
+                    <option value="Sarawak">Sarawak</option>
+                    <option value="Selangor">Selangor</option>
+                    <option value="Terengganu">Terengganu</option>
+                </select>
+
+                <button type="submit">Calculate Savings</button>
+            </form>
+
+            <div id="results"></div>
+            <button id="print-quote">Print Quote</button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="callback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <button type="submit">Request Callback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Rooftop Energy © 2024</p>
+        <p>Contact: <a href="mailto:sales@rooftop.my">sales@rooftop.my</a>, <a href="mailto:partnerships@rooftop.my">partnerships@rooftop.my</a>, <a href="mailto:investors@rooftop.my">investors@rooftop.my</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

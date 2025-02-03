@@ -41,36 +41,41 @@ h2 {
 }
 
 form {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Space between forms */
+    padding: 15px; /* Padding for the form */
+    background-color: #f9f9f9; /* Light background for forms */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
+    display: block; /* Each label on a new line */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
 }
 
 input[type="number"],
 input[type="text"],
 input[type="email"],
 select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside fields */
+    margin-bottom: 15px; /* Space below fields */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
 }
 
 button {
-    background-color: #fcd913;
-    color: #000000;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #fcd913; /* Primary yellow */
+    color: #000; /* Black text */
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
 }
 
 button:hover {
-    background-color: #e0b912;
+    background-color: #e0b912; /* Darker yellow on hover */
 }
 
 footer {
@@ -118,6 +123,10 @@ footer {
     }
     form {
         margin-bottom: 10px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
     input[type="number"],
     input[type="text"],
